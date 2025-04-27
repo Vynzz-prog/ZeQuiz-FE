@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <EditText
+            android:id="@+id/editTextPertanyaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tulis Pertanyaan" />
+
+        <EditText
+            android:id="@+id/editTextOpsiA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Opsi A"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editTextOpsiB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Opsi B"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editTextOpsiC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Opsi C"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editTextOpsiD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Opsi D"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editTextJawabanBenar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jawaban Benar"
+            android:layout_marginTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTopikBuatSoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonSimpanSoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Soal"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>

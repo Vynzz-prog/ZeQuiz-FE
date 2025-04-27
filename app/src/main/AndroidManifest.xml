@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zequiz">
+
+    <!-- Permission internet untuk API -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ZeQuiz"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ZeQuiz">
+
+        <!-- Activity Login sebagai launcher -->
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity Daftar -->
+        <activity android:name=".activities.DaftarActivity" />
+
+        <!-- Main Activity untuk Siswa -->
+        <activity android:name=".activities.MainActivity" />
+
+        <!-- Main Activity untuk Guru -->
+        <activity android:name=".activities.MainGuruActivity" />
+
+        <!-- Activity untuk Detail Soal -->
+        <activity android:name=".activities.DetailSoalActivity" />
+
+        <!-- Activity untuk Buat Soal -->
+        <activity android:name=".activities.BuatSoalActivity" />
+
+        <!-- Activity untuk Skor -->
+        <activity android:name=".activities.SkorActivity" />
+
+        <!-- Activity untuk Daftar Skor -->
+        <activity android:name=".activities.DaftarSkorActivity" />
+
+    </application>
+
+</manifest>
